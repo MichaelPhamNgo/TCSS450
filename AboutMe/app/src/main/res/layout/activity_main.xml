@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:paddingLeft="150dp"
+    android:paddingRight="150dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="95dp"
+        android:text="Text"
+        android:onClick="textOnClick"
+        />
+    <Button
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="95dp"
+        android:text="Image"
+        android:onClick="imageOnClick"
+        />
+    <Button
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="95dp"
+        android:text="Web"
+        android:onClick="webOnClick"
+        />
+    <Button
+        android:id="@+id/toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="95dp"
+        android:text="Toast"
+        android:onClick="toastOnClick"
+        />
+    <Button
+        android:id="@+id/dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Dialog"
+        android:onClick="dialogOnClick"
+        />
+</LinearLayout>
